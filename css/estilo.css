@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FAEBD7;
+	font-family: Arial Verdana;
+}
+
+.content {
+	border: solid 1px yellow;
+	width: 90%;
+	height: 1099px;
+	margin: 0 auto 0 auto;
+}
+
+.marca {
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 60px;
+}
+.marca a{
+	text-decoration: none;
+	color: #111123;
+}
+.marca a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.busca {
+	width: 100px;
+	height: 30px;
+	float:right;
+	margin-right: 100px;
+	margin-top: 60px;
+}
+.busca a {
+	text-decoration: none;
+	color: green;
+}
+.busca a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+
+.topo {
+	border: solid 1px blue;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto 0 auto;
+}
+
+.menu {
+	border: solid 1px red;
+	width: 100%;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.menu ul li {
+	list-style: none;
+	margin-top: 6px;
+	margin-left: 60px;
+	margin-right: 80px;
+	padding: 5px;
+	float: left;
+}
+.menu-lista li a {
+	text-decoration: none;
+	color: #000;
+}
+.menu-lista li a:hover {
+	text-decoration: underline;
+	color: #1e90ff;
+}
+.slideshow {
+	border: solid 1px blue;
+	width: 100%;
+	height: 300px;
+	margin: 5px auto 0 auto;
+}
+.tecnologia {
+	border: solid 1px brown;
+	width: 240px;
+	height: auto;
+	float: left;
+	margin-left: 70px;
+}
+.img {
+	margin-left: 5% 5% 5% 5%;
+}
+.link-post h2 a{
+	text-decoration: none;
+	color: #000;
+	
+}
+.link-post h2 a:hover{
+	text-decoration: underline;
+	color: #0000cc;
+	
+}
+.link-post a:hover img{
+	border: solid 1px black;
+	
+}
+
+.titulo-secao {
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	background-color: #aaddCC;
+}
+.titulo-secao h1 {
+	font-family: verdana;
+		color: #CC40FF;
+}
+.post-categoria {
+	margin: 10px;
+	width: 100%;
+}
+.post-categoria h2 {
+	margin-bottom: 5px;
+}
+.post-categoria p {
+	margin-top: 5px;
+}
+.post-categoria img {
+	margin-right: 10px;
+	float: left;
+}
+span {
+	font-size: 12px;
+}

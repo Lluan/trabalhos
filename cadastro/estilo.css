@@ -1,0 +1,73 @@
+*{
+	background-color: ;
+}
+.titulo{
+	font: verdana arial;
+	font-size: 12;
+	color: black;
+}
+.titulo a{
+	text-decoration: none;
+}
+.titulo a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.lado{
+	border-radius: 10px;
+	width: 100px;
+	height: 380px;
+	float: left;
+}
+.borda{
+	color: rgb(00,555,163);
+	font-family: verdana;
+	border-radius: 15px;
+	width: 150px;
+	box-shadow: 25px 50px 5px #888888;
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+.nome{
+	width: auto;
+	height: 20px;
+	font-family: verdana;
+}
+.pai{
+	width: auto;
+	height: 20px;
+	font-family: verdana;
+}
+.mae{
+	width: auto;
+	height: 20px;
+	font-family: verdana;
+}
+.endereco{
+	width: auto;
+	height: 20px;
+	font-family: verdana;
+}
+.bairro{
+	width: auto;
+	height: 20px;
+	font-family: verdana;
+}
+.cidade{
+	width: auto;
+	height: 20px;
+	font-family: verdana;
+}
+.cep{
+	width: auto;
+	height: 20px;
+	font-family: verdana;
+}
+.cadastrar{
+	cursor: pointer;
+}
+.limpar{
+	cursor: progress;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario com HTML</title>	
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<header class="titulo a hover">
+			<div>
+			
+			</div>
+		</header>
+
+		<h1></h1>
+			<form method="post" action="/cadastro.php">
+			
+				<div class="bordar">
+					<fieldset class="borda">
+			<legend><h1>Formulario de cadastro</h1></legend>
+
+		<table>
+			<tr>
+				
+				
+				<td><input type="text" id="nome" name="nome" class="nome" required title="Insira seu Nome" placeholder="Insira seu nome"></td>
+			</tr>
+			<tr>	
+				
+				<td><input type="text" id"pai" Class="pai" title="Insira o nome do seu pai" placeholder="Insira o nome do seu pai"></td>
+			</tr>
+			<tr>
+				
+				<td><input type="text" id="mae" name="mae" class="mae" required title="Insira o nome da sua mae" placeholder="Insira o nome da sua mae"></td>
+			</tr>
+			<tr>
+				
+				<td><input type="text" id="endereco" name="endereco" class="endereco" required title="Informe seu Endereço" placeholder="Informe seu Endereço" ></td>
+			</tr>
+			<tr>
+				
+				<td><input type="text" id="bairro" name="bairro" class="bairro" required title="Informe seu bairro" placeholder="Informe seu bairro"></td>
+			</tr>
+			<tr>
+				
+				<td><input type="text" id="cidade" name="cidade" class="cidade" required title="Informe sua cidade" placeholder="Informe sua cidade"></td>
+			</tr>
+			<tr>	
+				
+				<td><input type="text" id="cep" name="cep" class="cep" required placeholder="CEP - Exemplo 00.000-000"pattern="\d{2}\.\d{3}\-\d{3}"></td>
+			</tr>
+			<tr>
+				<td><label for="estcivil">Estado civil:</label></td>
+				<td><select id="estcivil">
+					<option value="C">Casado(a)</option>	
+					<option value="D">Divorciado(a)</option>
+					<option value="V">Viúvo(a)</option>
+					<option value="S">Solteiro(a)</option>
+					<option value="O">Outro</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label>Sexo:</label></td>
+				<td><input type="radio" id="sexo" name="sexo" class="sexo" value="M">
+				Masculino
+				<input type="radio" name="sexo" Class="sexo" value="F">
+				Feminino</td>
+			</tr>
+			<tr>
+				<td><label for="nascimento">Nascimento:</label></td>
+				<td><input type="date" id="nascimento" name="nascimeto" class="nascimento" required></td>
+			</tr>
+			<tr>
+				<td>Interesse musical:</td>
+				<td><input type="checkbox" class="musica">Rock
+				<input type="checkbox" class="musica">Pop Rock
+				<input type="checkbox" class="musica">Sofrencia (pablo)</td>
+			</tr>
+			<tr>
+				<td><label for="referencia">Referencia:</label></td>
+				<td><textarea rows="5" cols="50" id="referencia" name="referencia" placeholder="seu comentario"></textarea></td>
+			</tr>
+				<td><input type="submit" value="cadastrar" class="cadastrar"></td>
+				<td><input type="reset" value="limpar" class="limpar"></td>
+				
+		</table>
+		</fieldset>
+		</div>
+		
+		</form><br><br>
+	</body>
+</html>
